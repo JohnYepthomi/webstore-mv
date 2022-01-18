@@ -1,0 +1,11 @@
+.font-sm{
+    font-size: var(--font-sm);
+}
+
+.font-md{
+    font-size: var(--font-md);
+}
+
+.font-large{
+    font-size: var(--font-lg);
+}

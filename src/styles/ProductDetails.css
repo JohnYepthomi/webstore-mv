@@ -1,0 +1,117 @@
+.product-details-container{
+    margin-top: 100px;
+}
+
+.product-details-container img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain !important;
+}
+
+.ant-card-bordered .ant-card-cover{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------------BUYNOW CONTAINER-----------*/
+.buynow-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    color: var(--color-light);
+    background-color: var(--component-light-bg);
+    border-bottom: 3px solid lightgray;
+}
+
+.buynow-button-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.buynow-button-container button{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.buynow-container .price, .quantity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.buynow-container .soldby{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buynow-container .soldby .seller{
+    color: salmon;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.buynow-container .location-flex{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buynow-container .location-flex div{
+    color: rgb(184 178 237);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+/* -------------DETAILS CONTAINER-----------*/
+.details-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: var(--color-light);
+    background-color: var(--component-light-bg);
+    border-bottom: 3px solid lightgray;
+}
+
+.details-container > div{
+    font-weight: bold;
+}
+
+.details-container li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* ------------------ANT CARD STYLING OVERRIDES----------- */
+.ant-card-body, .ant-card-meta-description{
+    color: var(--color-light) !important;
+    background-color: var(--component-light-bg);
+}
+
+.ant-card-actions, .ant-card-actions > li{
+    color: var(--color-light);
+    background-color: var(--component-light-bg);
+}
+
+.ant-card-meta-title{
+    color: var(--color-light);
+    font-weight: bold;
+}
+
+.ant-card-bordered{
+    border: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+}
+

@@ -1,0 +1,51 @@
+.categories-container{
+  padding: 10px;
+  width: 100%;
+  background-color: var(--component-light-bg);
+  overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.categories-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.categories-container{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.categories-container p{
+  font-size: var(--font-sm);
+  color: var(--color-dark);
+}
+
+.categories-container .category-item-container{
+  display: flex;
+  gap: 5px;
+  font-size: var(--font-md);
+  color: var(--color-light);
+}
+
+@media only screen and (min-width: 500px) {
+  .categories-container .category-item-container{
+    justify-content: space-around; /* remove this using media query to view items when using overflow scroll */
+  }
+}
+
+
+.categories-container .category-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.categories-container .category-item img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}

@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-sm: 12px;
+  --font-md: 16px;
+  --font-lg: 21px;
+  --color-light: rgb(139, 136, 136);
+  --brand-color-1: #5D001E;
+  --brand-color-2: #9A1750;
+  --brand-color-3: #ee4c7c;
+  --brand-color-4: #E3AFBC;
+  --all-titles: #302e2f;
+  --component-light-bg: white;
+  --component-light-color: dark;
+  --component-light-border: rgb(238, 232, 232);
+  --main-light-bg: rgb(233, 230, 230);
+}
+
+.dark-mode{
+  --color-light: rgb(211, 204, 204) !important;
+  --all-titles: #979596 !important;
+  --component-light-bg: rgb(22, 22, 22) !important;
+  --component-light-color: #E3AFBC !important;
+  --component-light-border: rgb(51, 51, 51) !important;
+}
+
+.container{
+  padding: 0px 0px;
+}
+
+/* ---------------------OVERRIDING ANTD SEARCH COMPONENTS START-----------------*/
+.ant-input-group-wrapper{
+  position: fixed;
+  top: 60px;
+  left:0;
+  right:0;
+  z-index: 77;
+}
+
+.ant-input{
+  /* border: none !important; */
+  height: 40px;
+  border: 1px solid var(--brand-color-4) !important;
+  color: var(--color-light) !important;
+  background-color: var(--component-light-bg) !important;
+}
+
+.ant-input-search-button{
+  background-color: var(--brand-color-4) !important;
+  height: 40px !important;
+  border: 1px solid var(--brand-color-4) !important;
+}
+
+.ant-input-group .ant-input{
+  font-size: medium;
+}
+/* ---------------------OVERRIDING ANTD COMPONENTS END-----------------*/
+

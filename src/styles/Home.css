@@ -1,0 +1,17 @@
+.home-container{
+  position: relative;
+  margin-top: 100px;
+}
+
+.home-container .home-showcases{
+  position: absolute;
+  top: 88vw;
+  width:100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .home-container .home-showcases{
+    top: 68vw;
+  }
+}

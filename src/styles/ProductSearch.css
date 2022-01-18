@@ -1,0 +1,55 @@
+.productsearch-container{
+    margin-top: 100px;
+}
+
+/* ---------ANTD OVERRIDES---------- */
+.ant-list-item{
+    display: flex;
+}
+
+.ant-list-item-meta-avatar, .ant-list-item-meta-content{
+    flex: 1;
+}
+
+.ant-list-item-meta-avatar img{
+    width: 100%;
+    height: 100%;
+    min-height: 80px;
+    min-width: 80px;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.productdetails-image-container{
+    text-align: center;
+    padding: 10px;
+}
+
+/* .productdetails-name{
+    padding: 10px;
+} */
+
+.free-delivery{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: lightseagreen;
+    font-size: var(--font-sm);
+}
+
+.productsearch-price{
+    font-weight: bold;
+    font-size: var(--font-md);
+}
+
+@media only screen and (max-width: 500px) {
+    .ant-list-item-meta-avatar img{
+        height: 150px;
+        width: 150px;
+    }
+  }
+
+.loading {
+    background: white url('https://c.tenor.com/kxZxwvPdm-wAAAAC/loading-loading-screen.gif') center no-repeat;
+}
