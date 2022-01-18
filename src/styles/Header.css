@@ -8,10 +8,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 5px 10px;
-  /* margin-bottom: 5px !important; header bottom gap, won't work with fixed position */
   background-color: rgb(106 101 126);
-  /* box-shadow: 0px 0px 7px -3px black; */
-  /* border-bottom: 1px solid var(--component-light-border); */
   z-index: 77;
 }
 
@@ -51,7 +48,7 @@
 }
 
 .header-container svg{
-  pointer-events: none;  /* prevent child elements fro being targetted */
+  pointer-events: none;
   color: rgb(202, 191, 89);
 }
 
